@@ -1,20 +1,25 @@
     table {
       width: 684px;
-      height: 1342px;
+
       border: 4px solid black;
       padding: 10px;
       font-family: Helvetica, Arial, sans-serif;
       font-size: 28px;
     }
 
-    tr {
-      bottom-border: 2px solid black;
+    tr.border-bottom td {
+      border-bottom: 2px solid black;
+    }
+
+    tr.large-section td {
+      border-bottom: 25px solid black;
     }
 
     th {
       width: 100%;
       font: 5.89rem "Franklin Gothic Heavy", Arial, sans-serif;
       padding: 0px;
+      border: 0px;
     }
 
     td {
@@ -32,6 +37,8 @@
     ul {
       list-style-type: none;
       padding-left: 40px;
+      padding-top: 0px;
+      padding-bottom: 0px;
     }
 
     dl {
@@ -51,12 +58,6 @@
       padding-bottom: 0px;
       padding-left: 0px;
       padding-right: 0px;
-    }
-
-    table tr td table th {
-      font-family: Helvetica, Arial, sans-serif;
-      font-size: 1.5rem;
-      border-bottom: 1px solid black;
     }
 
     table tr td table td {
