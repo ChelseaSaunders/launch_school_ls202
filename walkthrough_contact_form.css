@@ -1,0 +1,93 @@
+body {
+  font: normal 16px Helvetica, Arial, sans-serif;
+}
+
+fieldset {
+  width: 600px;
+  padding: 0;
+  margin:  0 auto;
+  border: none;
+}
+
+dl {
+  margin-bottom: 0;
+}
+
+dl + dl {
+  margin-top: 0;
+}
+
+dd {
+  margin: 0 0 25px 0;
+}
+
+dt {
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"], 
+textarea {
+  width: 100%;
+  height: 30px;
+  padding:  3 10px;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  border: 1px solid #cecece;
+  box-sizing: border-box;
+}
+
+select {
+  width: 50px;
+  margin-bottom: 5px;
+  font: normal 14px Helvetica, Arial, sans-serif;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+  padding: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-top: 3px;
+}
+
+textarea {
+  height: auto; 
+  resize: vertical;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  font-size: 14px;
+}
+
+.partial {
+  box-sizing: border-box;
+  display: inline-block;
+}
+
+.one_half {
+  width: 50%;
+}
+
+.ten_percent {
+  width: 10%;
+}
+
+.fourty-percent {
+  width: 40%;
+}
+
+.left {
+  padding-right: 5px;
+}
+
+.right {
+  padding-left: 5px;
+}
+
+.center {
+  padding-right: 5px;
+  padding-left: 5px;
+}
